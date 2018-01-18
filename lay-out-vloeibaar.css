@@ -1,33 +1,116 @@
 body {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+	background-image: url(Afbeeldingen/wallpaper5.jpg);
+	background-size: 100%;
 	}
+li{
+	display: inline;
+	padding: 0.5em;
+	background-color: #efefef;
+	}
+a{
+	text-decoration: none;
+	color: black;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+a:hover{
+	color: white;
+}
+li:hover{
+	background-color: deepskyblue;	
+}
+p{
+	color: white;
+}
+
 #content {
 	overflow: auto;
 	}
 #nav, #feature, #footer{
 	margin: 1%;
 	}
-.kolom1, .kolom2, .kolom3{
-	background-color: #efefef;
-	width: 31.3%;
-	float: left;
-	margin: 1%;
-}
-.kolom3{
-	margin-right: 0%;
-}
-li{
-	display: inline;
-	padding: 0.5em;
-	}
-#nav, #footer{
+#nav,{
 	background-color: #efefef;
 	padding: 0.5em 0;
+}
+#nav{
+	background-color: transparent;
+	width: 95%;
 }
 #feature, .article{
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #efefef;
+}
+#footer{
+	background-color: deepskyblue;
+	padding: 0.1%;
+	opacity: 1;
+}
+
+.kolom1{
+	background-color: transparent;
+	width: 30%;
+	float: left;
+	margin-left: 19%;
+	margin-top: 6%;
+	margin-bottom: 5%;
+	font-size: 1.5em;
+}
+.kolom2{
+	background-color: transparent;
+	width: 30%;
+	float: left;
+	margin-right: 1%;
+	margin-top: 6%;
+	margin-bottom: 5%;	
+	font-size: 1.5em;
+}
+.li_HOME, .li_ALGEMEEN, .li_HOSTING, .li_CLOUD, .li_CONTACT, .li_KLANTEN, .li_SOCIAL_MEDIA{
+	background-color: deepskyblue;
+}
+.Home_knop1{
+	background-color: deepskyblue;
+	color: white;
+}
+.Home_knop2{
+	background-color: deepskyblue;
+	color: white;
+}
+.Home_knop3{
+	background-color: deepskyblue;
+	color: white;
+}
+.Home_knop4{
+	background-color: deepskyblue;
+	color: white;
+}
+.Home_knop5{
+	background-color: deepskyblue;
+	color: white;
+}
+.Home_knop6{
+	background-color: deepskyblue;
+	color: white;
+}
+.Home_knop1:hover{
+	opacity: 0.5;
+}
+.Home_knop2:hover{
+	opacity: 0.5;
+}
+.Home_knop3:hover{
+	opacity: 0.5;
+}
+.Home_knop4:hover{
+	opacity: 0.5;
+}
+.Home_knop5:hover{
+	opacity: 0.5;
+}
+.Home_knop6:hover{
+	opacity: 0.5;
 }
